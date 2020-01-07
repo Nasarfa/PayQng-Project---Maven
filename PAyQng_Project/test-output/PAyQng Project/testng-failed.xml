@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [PAyQng Project]">
+  <test thread-count="5" name="User Management Verify Test Cases(failed)">
+    <classes>
+      <class name="testcases.UserManagementModule_TestCases">
+        <methods>
+          <include name="after_suite"/>
+          <include name="beforetest"/>
+          <include name="verifyclickonusermanagement"/>
+          <include name="verfiylogin"/>
+          <include name="afterextentreport"/>
+          <include name="launchbrowser"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- testcases.UserManagementModule_TestCases -->
+    </classes>
+  </test> <!-- User Management Verify Test Cases(failed) -->
+</suite> <!-- Failed suite [PAyQng Project] -->
